@@ -1,10 +1,10 @@
 terraform {
 
   cloud {
-    organization = "snowdemo-org"
+    organization = "mysnoworg"
 
     workspaces {
-      name = "snowdemo-ws"
+      name = "mysnowws"
     }
   }
 
